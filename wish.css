@@ -1,0 +1,127 @@
+body{
+    background-image: url(birthday.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    display: grid;
+    
+    
+}
+
+.wishh {
+  font-size: 48px;
+  font-family: cursive;
+  color: #e44858; /* Pink color */
+  text-shadow: 0 0 10px rgba(255, 105, 180, 0.5); /* Pink shadow */
+  animation: shimmer 3s infinite alternate;
+}
+
+@keyframes shimmer {
+  0% {
+    color: #AA6063;
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+  }
+  50% {
+    color: #F3DAD7;
+    text-shadow: 0 0 20px rgba(255, 105, 180, 0.8);
+  }
+  100% {
+    color: #EE9EA1;
+    text-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+  }
+}
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 40px;
+  color: #E44858;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p1 {
+    display: inline-block;
+    font-size: 30px;
+    color: #F3DAD7;
+    text-align: left;
+    font-weight: 400;
+    background-color: rgba(227, 137, 139, 0.8);
+    border-radius: 25px;
+  
+    border: #E44858,solid;
+    border-width: 4px;
+}
+.p2{
+    display: inline-block;
+    font-size: 30px;
+    color: #F3DAD7;
+    text-align: left;
+    font-weight: 400;
+    background-color: rgba(227, 137, 139, 0.8);
+    border-radius: 25px;
+  
+    border: #E44858,solid;
+    border-width: 4px;
+}
+.p3{
+  display: inline-block;
+    font-size: 30px;
+    color: #F3DAD7;
+    text-align: left;
+    font-weight: 400;
+    background-color: rgba(227, 137, 139, 0.8);
+    border-radius: 25px;
+  
+    border: #E44858,solid;
+    border-width: 4px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: #E44858;
+    position: relative;
+    height: 60px;
+    border: #AA6063,solid;
+    border-width: 4px;
+    border-radius: 25px;
+}
+
+.wish:hover {
+    background: rgba(254, 199, 111, 0.3);
+    border-radius: 100px;
+    font-size: 25px;
+    position: relative;
+    
+  }
+  img{
+    
+    height: 25px;
+   
+  }
+  
+  .us:hover:hover {
+    background: rgba(254, 199, 111, 0.3);
+     border-radius: 100px;
+    font-size: 25px;
+    position: relative;
+  
+  }
+  
+    
+  
+button { 
+     background-color: #E7888B; 
+     border-radius: 25px;
+     border: #AA6063,solid;
+     border-width: 8px;
+     width: auto;
+     height: auto;
+     
+   
+  }

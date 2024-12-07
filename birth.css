@@ -1,0 +1,94 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background-image: url(birthback.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+  }
+
+.head-section {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+    
+}
+
+
+
+nav {
+  
+  top: 50px;
+  background-color: rgb(179, 190, 98, 0.5);
+    display:flex;
+    justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  border-radius: 21px;
+  margin-top: -54px;
+
+}
+
+.wish {
+    padding: rem;
+}
+
+
+@media only screen and  (max-width: 700px) {
+  body {
+    background-color: aquamarine;
+  }
+
+  
+} 
+
+.wish:hover {
+  background: rgba(254, 199, 111, 0.3);
+  border-radius: 100px;
+  font-size: 25px;
+  position: relative;
+  
+}
+img{
+  
+  height: 25px;
+ 
+}
+
+.us:hover:hover {
+  background: rgba(254, 199, 111, 0.3);
+   border-radius: 100px;
+  font-size: 25px;
+  position: relative;
+
+}
+
+  
+
+button{
+  background-color:#6dbfb8;
+  border-radius: 15px;
+  width: 100px;
+}
+
+
+
+ 
+
+
+
