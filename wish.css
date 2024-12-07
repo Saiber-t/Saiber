@@ -125,3 +125,9 @@ button {
      
    
   }
+
+.hug {
+    width:40px  width: 500px;
+    height: fit-content;
+    margin-left: 400px;
+}
